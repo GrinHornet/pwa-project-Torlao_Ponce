@@ -1,0 +1,31 @@
+{
+    "lang": "en-us",
+    "name": "Distance Converter App",
+    "short_name": "Distance Converter",
+    "description": "A basic distance converter",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/icon11.png",
+            "sizes": "512x512"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/ssNarrow.png",
+            "type": "image/png",
+            "sizes": "528x836",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "images/ssWide.png",
+            "type": "image/png",
+            "sizes": "1920x932",
+            "form_factor": "wide"
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("images/road.jpg"); /* Set the background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+h2 {
+  color: rgba(254, 254, 254, 0.915) !important;
+  text-shadow: #ccc !important;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #4f4e4e, 1px -1px 0 #595757, -1px 1px 0 #aba4a4,
+    1px 1px 0 #eeecec;
+}
+.nput-group {
+  background-color: #007bff;
+}
+nav {
+  position: fixed;
+  background: rgba(13, 13, 14, 0.5) !important;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+nav a {
+  padding-left: 30px !important;
+}
+nav ul {
+  padding-right: 30px !important;
+}
+
+.container {
+  margin-top: 70px !important;
+  background: rgba(139, 139, 141, 0.5) !important;
+  text-align: center;
+  width: 25rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem 0 #0001;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: black !important;
+}
+
+input,
+select {
+  background-color: a19e9e !important;
+  padding: 0.5rem;
+  padding-left: 10px !important;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 10px !important;
+}
+select option {
+  color: rgb(17, 17, 17) !important; /* Set text color */
+}
+.browser-default:hover {
+  background-color: rgb(194, 209, 250) !important; /* Set text color */
+}
+
+.output-meas {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f34348;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#historyTable {
+  background-color: #a19e9e; /* Set grey background color */
+  border-radius: 15px !important;
+}
+#historyTable thead th {
+  background-color: #a19e9e; /* Set grey background color for table header */
+  border-radius: 15px !important;
+  padding-left: 10px;
+}
+#historyTable tbody {
+  background-color: #c3bebe; /* Set grey background color for table rows */
+  border-radius: 15px !important;
+  padding-left: 20px;
+}
+#historyTable tbody :hover {
+  background-color: rgb(
+    194,
+    209,
+    250
+  ); /* Set grey background color for table rows */
+}
+#historyTable tbody .deleteButton:hover {
+  background-color: #e0381d; /* Set grey background color for table rows */
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button#delete-button {
+  background-color: transparent;
+  color: #f04124;
+  border: none;
+  cursor: pointer;
+}
+h3 {
+  text-align: left;
+}
+button#delete-button:hover {
+  color: #e0381d;
+}
+@media only screen and (max-width: 768px) and (max-height: 549px) {
+  .container {
+    width: 90%; /* Adjust container width for better fit */
+    padding: 1rem; /* Adjust padding for better spacing */
+  }
+
+  nav {
+    position: fixed;
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    width: 100%; /* Take up full width */
+    background-color: rgba(
+      13,
+      13,
+      14,
+      0.8
+    ); /* Set background color with opacity */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+
+  nav a {
+    color: white; /* Set link color */
+    font-size: 14px; /* Set font size for the links */
+    text-align: left !important; /* Align text to the left */
+    margin-left: 20px; /* Add left margin for spacing */
+  }
+
+  nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+
+  .container {
+    text-align: center;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 2rem 0 #0001;
+    margin-top: 30px !important;
+  }
+}
